@@ -1,4 +1,4 @@
-export const WHATSAPP = ""; // Informe DDI + DDD + número comercial
+export const WHATSAPP = "5531972603380"; // (31) 97260-3380
 export const categorias = [
   {
     "id": "frutas",

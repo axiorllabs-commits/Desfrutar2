@@ -1,0 +1,29 @@
+{
+  "entities": {
+    "RequestCounter": {
+      "title": "RequestCounter",
+      "description": "Global atomic sequential counter for Desfrutar WhatsApp availability requests (01, 02, 03...).",
+      "type": "object",
+      "properties": {
+        "lastNumber": {
+          "type": "integer",
+          "description": "Last issued sequential request number, incremented atomically by +1 per request."
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Server timestamp of the last atomic increment."
+        }
+      },
+      "required": ["lastNumber", "updatedAt"]
+    }
+  },
+  "firestore": {
+    "/counters/{counterId}": {
+      "schema": {
+        "$ref": "#/entities/RequestCounter"
+      },
+      "description": "Stores the global sequential counter document at /counters/solicitacoes."
+    }
+  }
+}

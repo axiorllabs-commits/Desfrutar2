@@ -1,3 +1,97 @@
-.df-catalog{--green:#23350f;--ink:#38220f;--gold:#f2a500;--paper:#f4e2cc;max-width:1440px;margin:0 auto;min-height:100vh;background:var(--paper) url('/catalogo-v3/textura.jpg') repeat;color:var(--ink);font-family:Arial,sans-serif}.df-catalog *{box-sizing:border-box}.df-catalog a{color:inherit;text-decoration:none}.df-catalog button{font:inherit;cursor:pointer}.df-head{display:flex;align-items:center;justify-content:space-between;padding:24px 5.5% 8px;gap:24px}.df-head img{width:clamp(80px,15vw,155px);display:block;mix-blend-mode:normal}.df-head nav{display:flex;justify-content:center;align-items:center;gap:clamp(14px,3vw,42px);text-transform:uppercase;font-size:clamp(11px,1.4vw,18px)}.df-active{font-weight:bold;position:relative;color:var(--green)!important}.df-active:after{content:'';position:absolute;left:0;right:0;bottom:-10px;height:4px;background:var(--gold);border-radius:80% 40%}.df-buy,.df-product button,.df-finish{background:var(--green);color:#fff;border:0;border-radius:40px;padding:12px 22px}.df-buy{white-space:nowrap;text-transform:uppercase}.df-buy span{background:var(--gold);color:var(--ink);border-radius:50%;padding:3px 7px;margin-left:5px}.df-hero{position:relative;min-height:280px;display:flex;align-items:center;isolation:isolate;overflow:hidden;padding:32px 6% 48px}.df-hero>img{position:absolute;z-index:-1;right:0;bottom:0;width:52%;height:100%;object-fit:cover;object-position:right center;mask-image:linear-gradient(to right,transparent 0%,#000 24%)}.df-hero>div{max-width:53%}.df-hero h1{font:400 clamp(38px,6.2vw,92px)/1.04 Georgia,serif;margin:0 0 16px;letter-spacing:-.045em}.df-line{display:block;height:4px;width:76px;border-radius:80% 40%;background:var(--gold);margin:10px 0 20px}.df-hero p{font-size:clamp(10px,1.35vw,17px);letter-spacing:.14em;text-transform:uppercase;line-height:1.55;max-width:460px}.df-hero:after,.df-footer:before{content:'';position:absolute;left:0;right:0;height:9px;background:#fff1dd;clip-path:polygon(0 30%,4% 60%,7% 20%,12% 70%,17% 30%,23% 60%,28% 5%,34% 55%,40% 30%,48% 75%,54% 25%,62% 60%,70% 20%,76% 55%,84% 15%,90% 65%,96% 30%,100% 60%,100% 100%,0 100%)}.df-hero:after{bottom:0}.df-tabs{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;padding:28px 18px}.df-tabs a{border:1px solid #6d6c46;border-radius:40px;padding:10px 24px;font-size:16px;white-space:nowrap}.df-tabs a.selected{background:var(--green);color:white;border-color:var(--green)}.df-products{display:flex;justify-content:center;flex-wrap:wrap;gap:18px;padding:8px 3% 38px}.df-product{display:flex;flex-direction:column;align-items:stretch;width:calc((100% - 36px)/3);max-width:385px;padding:16px;border:2px solid #fff3dd;border-radius:26px;background:linear-gradient(145deg,#fff0d94d,#efcda44d);box-shadow:0 6px 16px #a66c2420;overflow:hidden}.df-product img{width:100%;aspect-ratio:1.25;object-fit:cover;border-radius:18px;mix-blend-mode:normal}.df-product h2{font:600 clamp(22px,3vw,36px)/1.12 Georgia,serif;margin:14px 9px 0;letter-spacing:-.035em}.df-product .df-line{width:52px;margin:12px 9px 26px}.df-product button{margin:auto 9px 5px;display:flex;justify-content:center;align-items:center;gap:16px;font-size:18px}.df-product button:hover,.df-buy:hover{background:#3c501d}.df-footer{position:relative;display:flex;align-items:center;justify-content:space-between;gap:20px;padding:40px 5%;min-height:190px;overflow:hidden}.df-footer:before{top:0}.df-footer h2{font:400 clamp(26px,3.5vw,48px)/1.05 Georgia,serif;letter-spacing:-.045em;margin:0}.df-footer button{border:1px solid var(--green);background:transparent;color:var(--green);border-radius:40px;padding:13px 22px;white-space:nowrap;z-index:1}.df-footer img{width:27%;mix-blend-mode:normal;align-self:flex-end}.df-landscape{height:65px;background:url('/catalogo-v3/faixa.jpg') center bottom/100% 100% no-repeat}.df-shade{position:fixed;inset:0;z-index:99;background:#17210caa;display:flex;justify-content:center;align-items:center;padding:20px}.df-cart{background:#fff0d9;color:var(--ink);border-radius:22px;padding:28px;max-height:85vh;overflow:auto;width:min(580px,100%);position:relative}.df-cart h2{font:36px Georgia,serif;margin:0 0 15px}.df-close{position:absolute;right:15px;top:8px;border:0;background:transparent;font-size:30px!important}.df-cart-row{display:flex;align-items:center;gap:9px;padding:12px 0;border-bottom:1px solid #d9bb96;flex-wrap:wrap}.df-cart-row strong{flex:1;min-width:120px}.df-cart-row button{background:transparent;border:1px solid #9a8a69;border-radius:20px;padding:5px 10px}.df-finish{width:100%;margin-top:20px}.df-catalog :focus-visible{outline:3px solid #b77a00;outline-offset:3px}@media(max-width:700px){.df-head{flex-wrap:wrap;gap:10px;padding:12px 4%}.df-head nav{order:3;width:100%;gap:14px;font-size:11px;justify-content:space-between}.df-buy{font-size:13px!important;padding:9px 15px}.df-hero{min-height:220px;padding:24px 4% 34px}.df-hero>img{width:53%}.df-tabs{justify-content:flex-start;flex-wrap:nowrap;overflow-x:auto;padding:18px 12px}.df-tabs a{font-size:13px;padding:8px 15px}.df-products{gap:12px;padding:6px 3% 24px}.df-product{width:calc((100% - 12px)/2);padding:9px;border-radius:18px}.df-product img{border-radius:12px}.df-product h2{font-size:21px;margin:10px 4px 0}.df-product .df-line{margin:10px 4px 18px;width:40px}.df-product button{margin:auto 0 0;padding:10px 6px;font-size:14px;gap:5px}.df-footer{flex-wrap:wrap;padding:25px 4%;gap:14px}.df-footer img{width:35%;margin-left:auto}.df-footer button{font-size:13px;padding:10px 14px}.df-landscape{height:40px}}
-
-.df-catalog{max-width:1440px}.df-head{padding:24px 6% 12px}.df-head img{width:140px;mix-blend-mode:multiply}.df-hero{min-height:285px}.df-hero>img{width:52%;object-fit:cover;mask-image:linear-gradient(to right,transparent,#000 30%)}.df-hero:not(.df-hero-frutas):not(.df-hero-polpas)>img{object-fit:contain;object-position:right center;mask-image:linear-gradient(to right,transparent,#000 15%)}.df-tabs{gap:10px;padding:30px 18px}.df-tabs a{font-size:15px;padding:11px 20px}.df-product{padding:12px;background:#fff0dc70;border:1px solid #fff3e2;border-radius:24px}.df-product img{aspect-ratio:1.18;object-fit:cover}.df-product h2{text-align:center;font-weight:500;font-size:clamp(21px,2.6vw,34px);margin:12px 3px 0}.df-product .df-line{margin:12px auto 24px}.df-product button{margin:auto 10% 5px;padding:10px 16px}.df-count-1 .df-product{width:min(90%,440px);max-width:440px}.df-count-1 .df-product img{aspect-ratio:1.12;object-fit:contain;background:#ead1b7}.df-count-2 .df-product{width:calc((100% - 18px)/2);max-width:410px}.df-footer img{mix-blend-mode:multiply;mask-image:linear-gradient(to right,transparent,#000 20%)}.df-footer h2{font-size:clamp(25px,3.4vw,42px)}.df-footer button{font-size:16px}.df-landscape{height:65px}.df-count-1,.df-count-2{min-height:410px;align-items:center}@media(max-width:700px){.df-head img{width:90px}.df-hero{min-height:210px}.df-tabs{padding:20px 12px;justify-content:flex-start}.df-product{padding:8px}.df-product h2{font-size:21px}.df-product button{margin:auto 0 0;font-size:14px;padding:10px 6px}.df-count-1 .df-product{width:90%}.df-count-2 .df-product{width:calc((100% - 12px)/2)}.df-footer button{font-size:13px}.df-landscape{height:40px}}
+.df-buy,.df-product>.df-add-btn,.df-finish{background:var(--green);color:#fff;border:0;border-radius:40px;padding:clamp(9px,.9cqi,12px) clamp(14px,1.5cqi,22px)}
+.df-buy{white-space:nowrap;text-transform:uppercase}
+.df-hero{position:relative;display:flex;align-items:center;isolation:isolate;overflow:hidden;padding:1.8cqi 6.5% 3cqi}
+.df-hero-frutas{width:100%;aspect-ratio:auto;padding:1.2cqi 6.5% 1.2cqi}
+.df-hero>div{max-width:52%;position:relative;z-index:1}
+.df-hero h1{font:400 clamp(22px,5.1cqi,72px)/1.04 Georgia,serif;margin:0 0 .9cqi;letter-spacing:-.045em}
+.df-line{display:block;height:clamp(3px,.32cqi,4px);width:clamp(40px,5.5cqi,76px);border-radius:80% 40%;background:var(--gold);margin:.7cqi 0 1.2cqi}
+.df-hero p{font-size:clamp(10.5px,1.25cqi,18px);letter-spacing:.14em;text-transform:uppercase;line-height:1.5;max-width:440px;margin:0}
+.df-tabs{display:flex;justify-content:center;gap:clamp(8px,1.1cqi,15px);flex-wrap:wrap;padding:1.5cqi 6.5% 1.8cqi}
+.df-tabs a{border:1px solid #6d6c46;border-radius:40px;padding:clamp(10px,.95cqi,14px) clamp(18px,1.75cqi,26px);font-size:clamp(13.5px,1.32cqi,18.5px);font-weight:500;white-space:nowrap}
+.df-tabs a.selected{background:var(--green);color:#fff;border-color:var(--green)}
+.df-products{display:flex;justify-content:center;flex-wrap:wrap;gap:1.6cqi;padding:.5cqi 6.5% 2.4cqi}
+.df-product{display:flex;flex-direction:column;align-items:stretch;width:calc((100% - 3.2cqi)/3);max-width:390px;padding:clamp(10px,1cqi,14px);border:1px solid #fff3e2;border-radius:clamp(16px,1.7cqi,24px);background:#fff0dc70;box-shadow:0 6px 16px #a66c2420;overflow:hidden}
+.df-product img{width:100%;aspect-ratio:1.18;object-fit:cover;border-radius:clamp(12px,1.25cqi,18px);mix-blend-mode:normal}
+.df-product h2{text-align:center;font:500 clamp(18px,2.35cqi,33px)/1.15 Georgia,serif;margin:.9cqi 4px 0;letter-spacing:-.03em;min-height:2.3em;display:flex;align-items:center;justify-content:center}
+.df-product .df-line{width:clamp(36px,3.8cqi,52px);margin:.7cqi auto 1.2cqi}
+.df-product>.df-add-btn{margin:auto 5% .3cqi;min-height:clamp(42px,3.6cqi,52px);display:flex;justify-content:center;align-items:center;gap:.8cqi;font-size:clamp(14.5px,1.4cqi,19.5px);font-weight:500;line-height:1.2;padding:clamp(9px,.85cqi,12px) clamp(16px,1.5cqi,22px)}
+.df-product>.df-add-btn:hover,.df-buy:hover{background:#3c501d}
+.df-qty-control{margin:auto 5% .3cqi;min-height:clamp(42px,3.6cqi,52px);display:flex;justify-content:space-between;align-items:stretch;background:var(--green);color:#fff;border:0;border-radius:40px;overflow:hidden}
+.df-qty-btn{flex:0 0 auto;min-width:clamp(40px,3.8cqi,52px);margin:0;border:0;border-radius:0;background:transparent;color:#fff;display:inline-flex;align-items:center;justify-content:center;font-size:clamp(17px,1.6cqi,22px);font-weight:600;line-height:1;padding:0 clamp(10px,1cqi,14px);transition:background-color .15s ease}
+.df-qty-btn:hover{background:#3c501d}
+.df-qty-btn:focus-visible{outline:2px solid var(--gold);outline-offset:-3px}
+.df-qty-value{flex:1;display:inline-flex;align-items:center;justify-content:center;font-size:clamp(14.5px,1.4cqi,19.5px);font-weight:600;line-height:1;user-select:none}
+.df-footer{position:relative;display:flex;align-items:center;justify-content:space-between;gap:2cqi;padding:1.6cqi 6.5% 0;margin-bottom:-1.8cqi;min-height:11cqi}
+.df-footer h2{font:400 clamp(19px,2.8cqi,40px)/1.06 Georgia,serif;letter-spacing:-.045em;margin:0}
+.df-footer .df-whatsapp-btn{border:1.5px solid var(--green);background:transparent;color:var(--green);border-radius:40px;padding:clamp(11px,1.1cqi,16px) clamp(18px,1.9cqi,28px);font-size:clamp(14px,1.38cqi,19.5px);font-weight:600;display:inline-flex;align-items:center;gap:.7cqi;white-space:nowrap;z-index:1}
+.df-footer .df-whatsapp-btn svg{width:1.25em;height:1.25em;flex-shrink:0}
+.df-footer .df-whatsapp-btn:hover{background:var(--green);color:#fff}
+.df-footer img{width:24%;height:auto;align-self:flex-end}
+.df-landscape{position:relative;z-index:1;width:100%;aspect-ratio:1024 / 86;background:url('/catalogo-v3/faixa.png') center bottom/100% 100% no-repeat;pointer-events:none}
+.df-shade{position:fixed;inset:0;z-index:99;background:#17210caa;display:flex;justify-content:center;align-items:center;padding:20px}
+.df-cart{background:#fff0d9;color:var(--ink);border-radius:22px;padding:28px;max-height:85vh;overflow:auto;width:min(580px,100%);position:relative}
+.df-cart h2{font:36px Georgia,serif;margin:0 0 15px}
+.df-close{position:absolute;right:15px;top:8px;border:0;background:transparent;font-size:30px!important}
+.df-cart-row{display:flex;align-items:center;gap:9px;padding:12px 0;border-bottom:1px solid #d9bb96;flex-wrap:wrap}
+.df-cart-row strong{flex:1;min-width:120px}
+.df-cart-row button{background:transparent;border:1px solid #9a8a69;border-radius:20px;padding:5px 10px}
+.df-finish{width:100%;margin-top:20px}
+.df-has-float-bar{padding-bottom:88px}
+.df-float-bar{position:fixed;left:50%;bottom:calc(18px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);z-index:40;display:flex;align-items:center;justify-content:space-between;gap:14px;width:min(420px,calc(100vw - 32px));padding:13px 20px;background:var(--green);color:#fff;border:1px solid rgba(255,240,217,.2);border-radius:40px;box-shadow:0 10px 26px rgba(23,33,12,.32);font-size:16px;font-weight:600;letter-spacing:.01em;transition:background-color .18s ease}
+.df-float-bar:hover{background:#314817}
+.df-float-bar:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+.df-float-bar-left,.df-float-bar-right{display:inline-flex;align-items:center;gap:10px}
+.df-float-basket{width:22px;height:22px;flex-shrink:0}
+.df-float-count{background:var(--gold);color:#232917;border-radius:999px;min-width:28px;height:28px;padding:0 8px;display:inline-flex;align-items:center;justify-content:center;font-size:14.5px;font-weight:700;line-height:1}
+.df-float-arrow{width:20px;height:20px;flex-shrink:0}
+.df-is-produtos .df-main,.df-is-produtos .df-site-footer,.df-is-produtos .df-float-bar,.df-is-produtos .df-cart{font-family:'DM Sans',Arial,sans-serif}
+.df-is-produtos .df-hero h1,.df-is-produtos .df-product h2,.df-is-produtos .df-footer h2,.df-is-produtos .df-cart h2{font-family:'Lora',Georgia,serif}
+@media(max-width:700px){
+  .df-hero-frutas{display:flex;flex-direction:column;align-items:flex-start;aspect-ratio:auto;width:100%;padding:14px 18px 4px;overflow:visible}
+  .df-hero-frutas>div{max-width:100%;width:100%;position:relative;z-index:2}
+  .df-hero h1{font-size:clamp(28px,7.8vw,34px);line-height:1.06;margin:0 0 8px}
+  .df-line{width:52px;height:3.5px;margin:0 0 10px}
+  .df-hero p{font-size:clamp(11.5px,3.1vw,13.5px);letter-spacing:.045em;line-height:1.38;max-width:100%;text-wrap:balance}
+  .df-tabs{justify-content:center;flex-wrap:wrap;overflow-x:visible;width:100%;padding:12px 18px 14px;gap:8px}
+  .df-tabs a{display:inline-flex;align-items:center;justify-content:center;min-height:40px;font-size:clamp(14px,3.7vw,15px);padding:8px 15px}
+  .df-products{width:100%;gap:12px;padding:6px 18px 20px}
+  .df-product{width:calc((100% - 12px)/2);max-width:none;padding:9px;border-radius:16px}
+  .df-products-single .df-product{width:min(100%,296px);max-width:296px;padding:12px}
+  .df-product img{aspect-ratio:1.08;border-radius:12px}
+  .df-product h2{font-size:clamp(16px,4.4vw,19px);line-height:1.18;min-height:2.35em;margin:10px 2px 0}
+  .df-products-single .df-product h2{font-size:clamp(19px,5.2vw,22px)}
+  .df-product .df-line{width:38px;height:3px;margin:7px auto 12px}
+  .df-product>.df-add-btn{width:100%;min-height:44px;margin:auto 0 2px;gap:5px;font-size:clamp(14px,3.8vw,15.5px);font-weight:500;padding:10px 10px;white-space:nowrap}
+  .df-qty-control{width:100%;min-height:44px;margin:auto 0 2px}
+  .df-qty-btn{min-width:44px;min-height:44px;padding:8px 10px;font-size:18px}
+  .df-qty-value{font-size:clamp(14.5px,3.9vw,16px)}
+  .df-footer{display:grid;grid-template-columns:minmax(0,1fr) clamp(110px,33vw,168px);grid-template-areas:"copy farm" "cta farm";align-items:end;column-gap:10px;row-gap:12px;text-align:left;width:100%;padding:14px 18px 0;margin-bottom:-14px;min-height:auto}
+  .df-footer>div{grid-area:copy;width:auto;align-self:end}
+  .df-footer h2{font-size:clamp(18.5px,5.1vw,24px);line-height:1.14}
+  .df-footer .df-line{margin:8px 0 0;width:48px;height:3px}
+  .df-footer .df-whatsapp-btn{grid-area:cta;justify-self:start;align-self:start;min-height:44px;font-size:clamp(13px,3.45vw,15px);padding:10px 14px;gap:6px;margin-bottom:18px}
+  .df-footer img{grid-area:farm;width:100%;max-width:168px;align-self:end;justify-self:end;margin:0}
+  .df-landscape{aspect-ratio:1024 / 136;min-height:52px;background-image:url('/catalogo-v3/faixa-mobile.png')}
+  .df-shade{padding:16px}
+  .df-cart{padding:20px 18px;border-radius:18px;width:100%}
+  .df-cart h2{font-size:clamp(26px,7vw,30px);margin-bottom:10px}
+  .df-cart p{font-size:15px;line-height:1.45}
+  .df-cart-row{gap:8px;font-size:15px}
+  .df-cart-row button{min-width:36px;min-height:36px;padding:6px 10px}
+  .df-finish{min-height:46px;font-size:15.5px;font-weight:600}
+  .df-has-float-bar{padding-bottom:82px}
+  .df-float-bar{bottom:calc(12px + env(safe-area-inset-bottom,0px));width:calc(100vw - 28px);max-width:400px;padding:12px 18px;font-size:15.5px}
+}
+@media(max-width:360px){
+  .df-hero-frutas{padding:12px 16px 4px}
+  .df-hero p{font-size:11.5px;letter-spacing:.035em;max-width:100%}
+  .df-tabs{padding:14px 16px 12px;gap:7px}
+  .df-tabs a{font-size:14px;padding:8px 13px}
+  .df-products{padding:6px 16px 18px;gap:10px}
+  .df-product{width:calc((100% - 10px)/2);padding:8px}
+  .df-product>.df-add-btn{font-size:13.5px;padding:10px 6px}
+  .df-qty-btn{min-width:38px;padding:8px 6px}
+  .df-footer{grid-template-columns:minmax(0,1fr) 94px;column-gap:8px;row-gap:10px;padding:12px 16px 0;margin-bottom:-12px}
+  .df-footer h2{font-size:17.5px}
+  .df-footer .df-whatsapp-btn{font-size:12px;padding:10px 10px;gap:5px;margin-bottom:14px}
+}
