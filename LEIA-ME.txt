@@ -1,0 +1,7 @@
+DESFRUTAR — PROJETO INTEGRADO
+React + Vite. A raiz deste ZIP contém package.json, index.html, src e public.
+Suba esses arquivos na raiz do repositório existente (não dentro de outra pasta). Preserve .git e configurações de publicação existentes. Não envie node_modules.
+Local: npm install e npm run dev. Build: npm run build. Render Static Site: build npm install && npm run build; publish dist; rewrite /* para /index.html (public/_redirects também incluído, mas confirme regra no Render).
+Rotas: /, /nossa-historia, /contato, /produtos/frutas, /produtos/polpas, /produtos/queijos, /produtos/ovos-e-aves, /produtos/carnes, /produtos/cafe, /produtos/temperos.
+Configure WHATSAPP em src/catalogoDados.js: DDI + DDD + número, somente dígitos. Sem número não é possível finalizar o pedido. Produtos sem preços/pesos. Carrinho local compartilhado entre categorias.
+Logo: recorte da etiqueta original da fotografia do colorau enviada pela cliente; não é arquivo vetorial original. Fotos da história e dos demais produtos são ilustrativas, exceto queijo, café e colorau. A página inicial preserva a composição original como imagem com links sobrepostos; texto interno não é editável separadamente. As referências antigas podem mostrar a logo provisória, mas o código usa logo-oficial.png. Verifique a identidade e as fotos antes da publicação.

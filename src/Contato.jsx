@@ -1,0 +1,4 @@
+import React from 'react';
+import {Header} from './Historia.jsx';
+import {WHATSAPP} from './catalogoDados.js';
+export default function Contato(){return <main className="df-catalog"><Header active="contato"/><section className="df-hero df-history-hero"><img src="/catalogo-v3/historia-desenho.jpg" alt=""/><div><h1>Contato</h1><i className="df-line"/><p>Da nossa fazenda para a sua mesa.</p></div></section><section className="df-history-end"><h2>Fale com a Desfrutar</h2><p>Consulte produtos, disponibilidade e entregas em Minas Gerais.</p>{WHATSAPP?<a className="df-buy" href={'https://wa.me/'+WHATSAPP} target="_blank" rel="noreferrer">Falar pelo WhatsApp</a>:<p>Canal comercial em configuração.</p>}<p><a href="/produtos/frutas">Conhecer os produtos</a></p></section><div className="df-landscape"/></main>}
